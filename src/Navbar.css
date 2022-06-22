@@ -1,0 +1,40 @@
+
+
+.topnav {
+  position: sticky;
+  overflow: hidden;
+  flex-direction: column;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+
+  background-color: #ddd;
+  color: black;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  background-color: #e10dba;
+  color: white;
+}
+
+@media only screen and (max-width: 768px) {
+  [class*="col-"] {
+      width: 100%;
+      float: left;
+  }
+  .contact{
+    align-content: center;
+  }
+}
